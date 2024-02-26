@@ -2,12 +2,12 @@
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
 
-const char* ssid = "schoolztools_ap1";
-const char* password = "tkiller25";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 
-const char* mqtt_server = "825c912987534f048c3fbc28bb6ad943.s2.eu.hivemq.cloud";
-const char* mqtt_username = "picopico";
-const char* mqtt_password = "bellobello";
+const char* mqtt_server = "xxxxxxxxxx.s2.eu.hivemq.cloud";
+const char* mqtt_username = "xxxxx";
+const char* mqtt_password = "xxxxxx";
 
 // Initialize the WiFi client and MQTT client
 WiFiClientSecure espClient;
@@ -29,7 +29,7 @@ void setup_wifi() {
 
 
 // Define the MQTT topic to publish to
-const char* mqtt_topic = "light";
+const char* mqtt_topic = "xxxxxx";
 
 void setup() {
   Serial.begin(9600);
